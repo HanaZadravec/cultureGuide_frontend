@@ -1,0 +1,26 @@
+/*.home-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-left: 35px;
+  }
+*/
+  
+  .home-content {
+    display: flex;
+    flex-direction: column;
+    margin-left: 35px;
+    background-color: white; 
+    padding: 20px;
+   min-height: 100vh;
+  }
+  .content {
+    margin-left: 60px;
+    transition: margin 0.3s;
+    flex: 1;
+  }
+  
+  .logout-button {
+    align-self: flex-start;
+  }
+  

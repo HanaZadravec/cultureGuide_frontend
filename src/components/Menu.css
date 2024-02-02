@@ -1,0 +1,127 @@
+.purple {
+  width: 80px;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background: #4B0082; 
+  transition: width 0.3s;
+  overflow-x: hidden;
+  z-index:1;
+}
+
+.purple.open {
+  width: 200px;
+}
+
+.purple .toggle-button {
+  font-size: 24px;
+  cursor: pointer;
+  color: #fff;
+  background: transparent;
+  border: none;
+  padding: 20px;
+  display: block;
+}
+
+.purple .links {
+  padding: 20px;
+}
+
+.purple .links a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+}
+
+.purple .links a:hover {
+  background-color: #d4af37;
+}
+ 
+.gray {
+  width: 60px;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background: #555555; 
+  transition: width 0.3s;
+  overflow-x: hidden;
+  z-index:1;
+}
+
+.gray.open {
+  width: 200px;
+}
+
+.gray .toggle-button {
+  font-size: 24px;
+  cursor: pointer;
+  color: #fff;
+  background: transparent;
+  border: none;
+  display: block;
+  padding: 20px;
+}
+
+.gray .links {
+  padding: 20px;
+}
+
+.gray .links a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+}
+
+.gray .links a:hover {
+  background-color: #d4af37;
+} 
+
+.brown {
+  width: 80px;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background: #8B4513; 
+  transition: width 0.3s;
+  overflow-x: hidden;
+  z-index: 1;
+}
+
+.brown.open {
+  width: 250px;
+}
+
+.brown .toggle-button {
+  font-size: 24px;
+  cursor: pointer;
+  color: #fff;
+  background: #8B4513; 
+  border: none;
+  margin: 10px;
+  display: block;
+  padding: 10px;
+  text-align: center;
+}
+
+.brown .links {
+  padding: 20px;
+}
+
+.brown .links a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+  transition: background-color 0.3s;
+  border-bottom: 1px solid #fff; 
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.brown .links a:hover {
+  background-color: #8BC34A; 
+}
